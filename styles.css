@@ -76,6 +76,15 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
+header_exp {
+  text-align: center;
+  background: url('images/Experience.png') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -84,21 +93,37 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
-.location {
+.summary {
   background-color: #222;
-  color: yellow;
+  color: #ebedef;
+ 
 }
-.card {
+.card_small {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 400px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+
+.card_large {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 700px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card_small:hover {
+  border-color: #ff99ff;
+}
+
+.card_large:hover {
   border-color: #ff99ff;
 }
 
