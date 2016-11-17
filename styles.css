@@ -57,7 +57,7 @@ a:hover {
 
 #home {
   text-align: center;
-  background: url('images/collage.jpg') no-repeat top center ;
+  background: url('images/collage.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -66,7 +66,7 @@ a:hover {
 
 #experienceimage {
   text-align: center;
-  background: url('images/Experience.png') no-repeat top center ;
+  background: url('images/Experience.png') no-repeat top center;
   background-size: 1700px 270px;
   overflow: hidden;
   padding-top: 60px;
@@ -75,7 +75,7 @@ a:hover {
 
 #projectsimage {
   text-align: center;
-  background: url('images/Projects.png') no-repeat top center ;
+  background: url('images/Projects.png') no-repeat top center;
   background-size: 1700px 270px;
   overflow: hidden;
   padding-top: 60px;
