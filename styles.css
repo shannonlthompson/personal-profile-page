@@ -55,16 +55,37 @@ a:hover {
   color: white
 }
 
-header {
+#home {
   text-align: center;
-  background: url('images/collage.png') no-repeat top center ;
+  background: url('images/collage.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+
+
+#experienceimage {
+  text-align: center;
+  background: url('images/Experience.png') no-repeat top center ;
+  background-size: 1700px 270px;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+
+#projectsimage {
+  text-align: center;
+  background: url('images/Projects.png') no-repeat top center ;
+  background-size: 1700px 270px;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+
 header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -77,13 +98,6 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 
-header_exp {
-  text-align: center;
-  background: url('images/Experience.png') no-repeat top center ;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
-}
 
 .tag {
   background-color: #efefef;
@@ -96,8 +110,8 @@ header_exp {
 .summary {
   background-color: #222;
   color: #ebedef;
- 
 }
+
 .card_small {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -200,12 +214,15 @@ a.social:hover {
       display: flex; 
       max-width: 1200px;
       -ms-flex-pack: distribute;
-      justify-content: space-around;
+      justify-content:center;
       margin: 0 auto;
+      
   }
+    
+
 
   header {
-    min-height: 470px;
+    min-height: 270px;
   }
 
   .nav {
@@ -229,4 +246,13 @@ a.social:hover {
   }
 
 }
+
+img.exp-img {
+    border-width: 5px;
+    border-style: outset;
+    border-color: #ffffff;
+    width ="325px";
+    height="325px";
+}
+    
 
