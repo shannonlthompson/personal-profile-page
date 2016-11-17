@@ -90,9 +90,9 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 100%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all 2s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -244,15 +244,13 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
 }
 
 img.exp-img {
     border-width: 5px;
     border-style: outset;
     border-color: #ffffff;
-    width ="325px";
-    height="325px";
+    width: 325px;
+    height: 325px;
 }
-    
 
